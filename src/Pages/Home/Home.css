@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-family: cursive;
+}
+#wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 80%;
+}
+#class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+}
+#school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+}
+#photo {
+  width: 600px;
+  height: 600px;
+  border-radius: 25px;
+}
+#photo1 {
+  width: 700px;
+  height: 500px;
+  border-radius: 25px;
+}
+#school-left {
+  margin-right: 3rem;
+}
+#class-left {
+  margin-right: 3rem;
+}
+#pars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#car {
+}
+/* ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.control-dots {
+  display: flex;
+  justify-content: center;
+} */
+#last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#last > a {
+  padding: 1rem;
+  font-size: 20px;
+}
